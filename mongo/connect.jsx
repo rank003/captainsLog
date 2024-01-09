@@ -9,7 +9,7 @@ const connectDB= async=>{
 
   try {
     mongoose.connect(
-      
+      //place yours here//,
       { useNewUrlParser: true, useUnifiedTopology: true }
     )
 
