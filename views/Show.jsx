@@ -1,5 +1,8 @@
 const React = require('react');
 
+
+
+
 const Show = ({ log }) => (
   <div>
     <h1>Captain's Log - {log.title}</h1>
