@@ -9,7 +9,7 @@ const connectDB= async=>{
 
   try {
     mongoose.connect(
-      //place yours her and ensure the password is entered//,
+      "mongodb+srv://frank:mmsmhbb6lWi4vrDj@cluster0.5l7jdhc.mongodb.net/Elles?retryWrites=true&w=majority",
       { useNewUrlParser: true, useUnifiedTopology: true }
     )
 
