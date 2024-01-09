@@ -9,7 +9,7 @@ const connectDB= async=>{
 
   try {
     mongoose.connect(
-      //place yours here//,
+      //place yours her and ensure the password is entered//,
       { useNewUrlParser: true, useUnifiedTopology: true }
     )
 

@@ -1,5 +1,8 @@
 const React = require('react');
 
+
+
+
 const Index = ({ logs }) => (
   <div>
     <h1>Captain's Log Index</h1>

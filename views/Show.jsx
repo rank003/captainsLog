@@ -1,8 +1,6 @@
 const React = require('react');
 
 
-
-
 const Show = ({ log }) => (
   <div>
     <h1>Captain's Log - {log.title}</h1>
@@ -13,5 +11,7 @@ const Show = ({ log }) => (
     <button><a href={`/logs/edit/${log._id}`}>update</a></button>
   </div>
 );
+
+
 
 module.exports = Show;

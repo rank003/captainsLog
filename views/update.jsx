@@ -10,6 +10,9 @@ const NewUpdate = ({ myOutput }) => {
     setShipIsBroken(!shipIsBroken);
   };
 
+
+
+  
   return (
     <div>
       <h1>Create New Log</h1>
